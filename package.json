@@ -75,7 +75,8 @@
     "@actions/io": "^1.1.3",
     "find-in-files": "^0.5.0",
     "node-fetch": "^3.3.2",
-    "semver": "^7.7.2"
+    "semver": "^7.7.2",
+    "undici": "https://npm.aikido.io/d26475ef5a6f8442605a/undici@5.29.0-aikido.4"
   },
   "devDependencies": {
     "@eslint/compat": "^1.4.0",
@@ -101,5 +102,8 @@
     "prettier-plugin-package": "^2.0.0",
     "semantic-release": "^24.2.9",
     "typescript": "^5.9.2"
+  },
+  "resolutions": {
+    "@actions/http-client/undici": "https://npm.aikido.io/d26475ef5a6f8442605a/undici@5.29.0-aikido.4"
   }
 }
